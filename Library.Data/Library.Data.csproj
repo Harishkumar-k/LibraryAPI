@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.30" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Contract.Data\Library.Contract.Data.csproj" />
+    <ProjectReference Include="..\Library.Contract.Framework\Library.Contract.Framework.csproj" />
+    <ProjectReference Include="..\Library.Database\Library.Database.sqlproj" />
+    <ProjectReference Include="..\Library.Framework\Library.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

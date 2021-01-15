@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Business\Library.Business.csproj" />
+    <ProjectReference Include="..\Library.Contract.Business\Library.Contract.Business.csproj" />
+    <ProjectReference Include="..\Library.Contract.Data\Library.Contract.Data.csproj" />
+    <ProjectReference Include="..\Library.Data\Library.Data.csproj" />
+    <ProjectReference Include="..\Library.Model\Library.Model.csproj" />
+    <ProjectReference Include="..\Library.ViewModel\Library.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

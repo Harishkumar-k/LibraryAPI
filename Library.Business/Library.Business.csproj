@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Contract.Business\Library.Contract.Business.csproj" />
+    <ProjectReference Include="..\Library.Contract.Data\Library.Contract.Data.csproj" />
+    <ProjectReference Include="..\Library.Model\Library.Model.csproj" />
+    <ProjectReference Include="..\Library.ViewModel\Library.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
