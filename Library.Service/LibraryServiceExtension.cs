@@ -12,6 +12,7 @@ namespace Library.Service
 {
     public static class LibraryServiceExtension
     {
+        //Class Extenstion
         public static IServiceCollection AddLibraryDependencies(this IServiceCollection services, IConfiguration configuration)
         {
             
